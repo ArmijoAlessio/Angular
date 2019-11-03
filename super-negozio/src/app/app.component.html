@@ -1,0 +1,15 @@
+<h1>il super negozio di super prodotti</h1>
+<div class="jumbotron bache">
+<h4> Oggetti sul sito </h4>
+    <div class="card-header">
+        <ul>
+            <li *ngFor = "let u of prodotti">
+                 <h4>{{u.product_name}}</h4>
+                 <h6>{{u.supplier}}</h6>
+                 <h6>{{u.quantity}}</h6>
+                 <h6>{{u.unit_cost}}</h6>
+            </li>
+        </ul>
+
+    </div>
+</div>
